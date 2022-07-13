@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
+
+* {
+  font-family: 'Fredoka', sans-serif;
+}
+
+body {
+  background: url(backimage.jpg) no-repeat center fixed;
+  background-size: 100%;
+}
+
+/* for index */
+#home {
+  background: linear-gradient(45deg, rgb(39, 206, 59), rgb(23, 193, 188));
+}
+
+#features-objectives {
+  background: linear-gradient(45deg, yellow, purple);
+}
+
+#contact {
+  background: linear-gradient(45deg, rgb(247, 243, 243), rgb(227, 123, 123));
+}
+
+footer {
+  background: linear-gradient(120deg, rgb(21, 22, 7), rgb(228, 13, 49));
+}
+
+#social i {
+  font-size: 2em;
+}
+
+#social div {
+  background: linear-gradient(150deg, rgb(81, 229, 81), rgb(57, 213, 30));
+}
+
+/* for gallery page */
+#gallery {
+  background: linear-gradient(270deg, rgb(39, 187, 206), rgb(193, 23, 170));
+}
+
+#footer-gallery {
+  background: linear-gradient(200deg, rgb(39, 187, 206), rgb(193, 23, 170));
+}
+
+/* for table */
+table {
+  margin: auto;
+}
+
+/* for footers of encyclopedia pages */
+#footer-aves,
+#footer-insect,
+#footer-mam,
+#footer-misc {
+  background: linear-gradient(150deg, rgb(39, 206, 59), rgb(23, 193, 188));
+}
+
+/* for background image in smaller screen */
+@media screen and (max-width:1200px) {
+  body {
+    background: url(backsmallimage.jpg) no-repeat center fixed;
+    background-size: 100vh;
+    object-fit: cover;
+  }
+}
